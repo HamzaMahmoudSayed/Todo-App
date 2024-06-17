@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Todo App</title>
+</head>
+
+<body>
+
+    <header class="my-5">
+        <h1 class="text-center text-white text-capitalize">todo app with API</h1>
+    </header>
+    <div class="content p-5 w-50 m-auto rounded-5 shadow">
+        <div class="form d-flex justify-content-between mb-5">
+            <input type="text" id="taskInput" class="w-75 form-control rounded-pill" placeholder="Type your Task..">
+            <button id="btn" class="btn rounded-pill text-white fw-bold">Add Task</button>
+        </div>
+        <span class="loader" id="loading"></span>
+        <div class="tasks" id="tasksContainer">
+
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
